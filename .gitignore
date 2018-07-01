@@ -2,5 +2,4 @@
 /.idea/
 /Docker_Playground.iml
 .DS_Store
-.gitignore
 .idea/workspace.xml
