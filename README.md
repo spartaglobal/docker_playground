@@ -14,7 +14,6 @@ The Docker Playground is an initiative aiming to provide instructions for buildi
 Information such as how to get involved, requesting content, raising issues, etc. can be found on the Wiki [here](https://github.com/spartaglobal/Docker_Playground/wiki)
 
 
-
 # Requirements
 
 ## Installing Docker
@@ -24,4 +23,5 @@ All the information needed to install Docker can be found [here](https://docs.do
 
 # Companies Involved
 
-![](https://www.gradjobs.co.uk/documents/company-logo/647-sparta-new-branding-1351.jpg)
+List can be found [here](https://github.com/spartaglobal/Docker_Playground/wiki/Companies-Involved)
+
