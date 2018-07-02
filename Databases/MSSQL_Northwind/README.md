@@ -50,7 +50,7 @@ To log into the image when prompted for login credentials input:
 
 Connection type -> `Microsoft SQL Server`
 
-Server -> `localhost, SA`
+Server -> `localhost, 1401`
 
 Authentication type -> `SQL Login`
 
