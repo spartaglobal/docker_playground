@@ -8,16 +8,11 @@ The Docker Playground is an initiative aiming to provide instructions for buildi
 
 * [Databases](https://github.com/spartaglobal/Docker_Playground/tree/master/Databases)
     1. [MS SQL + Northwind - SQL training](https://github.com/spartaglobal/Docker_Playground/tree/master/Databases/MSSQL_Northwind)
+    
+# Getting Involved
 
+Information such as how to get involved, requesting content, raising issues, etc. can be found on the Wiki [here](https://github.com/spartaglobal/Docker_Playground/wiki)
 
-## Please Join Us / Request For Content
-
-Anyone interested in helping provide environments on anything from web products, API's, databases, etc.
-
-#### Join Us
-
-* Individuals please pull request for review and implementation
-* Companies please contact <mailto:kcornwall@spartaglobal.com> for collaboration
 
 
 # Requirements
@@ -25,8 +20,6 @@ Anyone interested in helping provide environments on anything from web products,
 ## Installing Docker
 
 All the information needed to install Docker can be found [here](https://docs.docker.com/install/). 
-
-
 
 
 # Companies Involved
