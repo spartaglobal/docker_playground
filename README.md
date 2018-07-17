@@ -4,10 +4,18 @@
 
 The Docker Playground is an initiative aiming to provide instructions for building Docker environments to give training and practice environments for educational purposes.
 
+
+
 # Sections
 
-* [Databases](https://github.com/spartaglobal/Docker_Playground/tree/master/Databases)
-    1. [MS SQL + Northwind - SQL training](https://github.com/spartaglobal/Docker_Playground/tree/master/Databases/MSSQL_Northwind)
+* [Docker -> Getting Started](https://github.com/spartaglobal/Docker_Playground/tree/master/Databases)
+* [Environments -> Various docker environments to help train and educate](https://github.com/spartaglobal/Docker_Playground/tree/master/Environments)
+
+## Environment Sections
+
+Within the [Environments](https://github.com/spartaglobal/Docker_Playground/tree/master/Environments) section will be various folders relating to particular activities which will be listed under the master folder of that section. As an example the Database section will have a file describing what is available.
+
+Each subsequent folder per master environment will have instructions on how to utilise the particular environment for training purposes and give direction to some useful resources to help practice. 
     
 # Getting Involved
 
