@@ -16,10 +16,7 @@ Information such as how to get involved, requesting content, raising issues, etc
 
 # Requirements
 
-## Installing Docker
-
-All the information needed to install Docker can be found [here](https://docs.docker.com/install/). 
-
+Please see the 
 
 # Companies Involved
 
