@@ -50,7 +50,7 @@ REPOSITORY     TAG       IMAGE ID       CREATED         SIZE
 ubuntu/xenial  latest    8a84a4ab0f57   19 minutes ago  192MB
 ```
 
-## Running the container
+## Running the container - MacOSX & Linux
 We now need to run the container to create our ongoing development environment. We will build this using the below command:
 
 
@@ -80,3 +80,16 @@ At this stage it would also be worth creating a file called `test.rb` within you
 
 If we now access the /home/ruby folder in your docker image `cd /home/ruby` and type `ls` you should be able to see your `test.rb` file and by running `ruby test.rb` we should see your output of `"This is now working"`.
   
+## Running the container - Windows
+
+Running the build in Windows is slightly different, first you will need to update the Docker engine settings. When Docker is running there should be a docker symbol in the running process bar i.e. within the taskbar if you right click on this and then select settings you should be met with the below menu:
+
+![](images/Docker_Settings.PNG)
+
+You will then need to select the C drive tick box for share and apply:
+
+Then the run command will look as below (please note that the C path is an example and should relate to your local path):
+
+`docker run -it --name rubyenv1  -v c:/document/ruby:/home/ruby -p 80:80 -p 8080:8080 -p 4567:4567 ubuntu/xenial /bin/bash`
+
+As you can see from above sharing the drive via the settings allows you to define the path as you would in a linux/unix based environment. Please see the above `Running the container - MacOSX & Linux` for the breakdown of the command.
