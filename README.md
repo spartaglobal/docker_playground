@@ -4,8 +4,6 @@
 
 The Docker Playground is an initiative aiming to provide instructions for building Docker environments to give training and practice environments for educational purposes.
 
-
-
 # Sections
 
 * [Docker -> Getting Started](https://github.com/spartaglobal/Docker_Playground/tree/master/Databases)
@@ -21,10 +19,6 @@ Each subsequent folder per master environment will have instructions on how to u
 
 Information such as how to get involved, requesting content, raising issues, etc. can be found on the Wiki [here](https://github.com/spartaglobal/Docker_Playground/wiki)
 
-
-# Requirements
-
-Please see the 
 
 # Companies Involved
 
