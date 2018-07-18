@@ -6,7 +6,7 @@ Docker is a huge topic and has an incredible amount of uses. This getting starte
 
 Before moving forward with the next steps it would be important to read the information in order as below to help get a picture of what Docker can provide:
 
-1. [Docker Overview -> Link to Docker docs](https://docs.docker.com/engine/docker-overview/) -
+1. [Docker Overview -> Link to Docker docs](https://docs.docker.com/engine/docker-overview/)
 2. What is Docker and the benefit -> Video coming soon
 
 ## Installing Docker

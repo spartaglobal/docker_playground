@@ -144,4 +144,4 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 30d72b7991ea        ubuntu/xenial       "/bin/bash"         16 hours ago        Up 15 seconds       0.0.0.0:80->80/tcp, 0.0.0.0:4567->4567/tcp, 0.0.0.0:8080->8080/tcp   rubyenv1
 ```
 
-Which means you need to attach to it. simply typing `dockeer attach rubyenv1` or use the ID if you wish should reattach you to the container.
+Which means you need to attach to it. simply typing `docker attach rubyenv1` or use the ID if you wish should reattach you to the container.
