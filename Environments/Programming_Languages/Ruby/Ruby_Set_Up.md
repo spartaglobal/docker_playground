@@ -4,7 +4,7 @@ The aim of this docker container is to provide a basic ubuntu:xenial environment
 
 ## Building the environment from the Dockerfile
 
-To create this environment access the Dockerfile in this folder [or click here](https://github.com/spartaglobal/Docker_Playground/blob/master/Environments/Programming_Languages/Ruby/Dockerfile). Locally create a Dockerfile, copy and paste the details and save.
+To create this environment access the Dockerfile in this folder [or click here](https://github.com/spartaglobal/Docker_Playground/blob/master/Environments/Programming_Languages/Ruby/Dockerfile). Locally create a file names `Dockerfile`, copy and paste the details and save.
 
 Access the folder via the command line / terminal and type `docker build -t ubuntu/xenial .`.
 
