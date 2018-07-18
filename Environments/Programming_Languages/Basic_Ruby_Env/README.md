@@ -97,7 +97,7 @@ As you can see from above sharing the drive via the settings allows you to defin
 ## Container access
 
 ### Exiting the container
-There will be times you want to exit the container (or simply leave it running) but if you wish to exit simply type exit
+There will be times you want to exit the container (or simply leave it running) but if you wish to exit simply type `exit` and press enter.
 
 ### Container status
 
