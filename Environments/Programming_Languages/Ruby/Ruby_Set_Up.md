@@ -93,3 +93,55 @@ Then the run command will look as below (please note that the C path is an examp
 `docker run -it --name rubyenv1  -v c:/document/ruby:/home/ruby -p 80:80 -p 8080:8080 -p 4567:4567 ubuntu/xenial /bin/bash`
 
 As you can see from above sharing the drive via the settings allows you to define the path as you would in a linux/unix based environment. Please see the above `Running the container - MacOSX & Linux` for the breakdown of the command.
+
+## Container access
+
+### Exiting the container
+There will be times you want to exit the container (or simply leave it running) but if you wish to exit simply type exit
+
+### Container status
+
+Once you have exited the container we will need to check whether it is still running, to do this run `docker ps`
+
+you will hopefully see:
+
+```bash
+CONTAINER ID        IMAGE          COMMAND             CREATED             STATUS              PORTS         NAMES
+```
+
+The above means that the container is no longer running and there is no need to shut the container down (if you wish to of course).
+
+If however, you see that your container is still running as below:
+```bash
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS                                                                NAMES
+30d72b7991ea        ubuntu/xenial       "/bin/bash"         16 hours ago        Up 15 seconds       0.0.0.0:80->80/tcp, 0.0.0.0:4567->4567/tcp, 0.0.0.0:8080->8080/tcp   rubyenv1
+```
+
+You may wish to stop the container.
+
+#### Stopping a container
+
+To stop a container simply type `docker stop <conatiner name/conatiner ID>` so in the above instance `docker stop rubyenv1` will stop the container which can be reviewed by the `docker ps` command.
+
+#### Starting a container
+
+If when you run `docker ps` you see the below:
+
+```bash
+CONTAINER ID        IMAGE          COMMAND             CREATED             STATUS              PORTS         NAMES
+```
+
+You will need to restart the container. This can be done with either the ID or the name of the container. If you have forgotten you can run `docker ps -a` to show all containers available.
+
+In this instance we have named our container `rubyenv1` so by typing `docker start -a rubyenv1` will start the container and the `-a` flag will attach you to the container.
+
+#### Attaching to a container
+
+You may find when you run `docker ps` that your container is already up and running:
+
+```bash
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS                                                                NAMES
+30d72b7991ea        ubuntu/xenial       "/bin/bash"         16 hours ago        Up 15 seconds       0.0.0.0:80->80/tcp, 0.0.0.0:4567->4567/tcp, 0.0.0.0:8080->8080/tcp   rubyenv1
+```
+
+Which means you need to attach to it. simply typing `dockeer attach rubyenv1` or use the ID if you wish should reattach you to the container.
