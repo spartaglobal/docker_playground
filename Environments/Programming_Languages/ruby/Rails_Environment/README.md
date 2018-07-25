@@ -1,6 +1,6 @@
-# Ruby Docker Env
+# Rails Docker Env
 
-The aim of this docker container is to provide a ubuntu:xenial environment with the latest version of ruby on rails installed and set up to use a postgresql database.
+The aim of this docker container is to provide a ubuntu:xenial environment with the latest version of ruby on rails installed and set up to use a PostgreSQL database.
 
 ## Building the environment from the Dockerfile
 
@@ -148,7 +148,7 @@ Which means you need to attach to it. simply typing `docker attach rubyenv1` or 
 
 #### Connecting to PostgreSQL
 
-PostgreSQL will be all configured and set up to run. To start the server, simply run:
+Once you've attached to the container, PostgreSQL will be all configured and set up to run. To start the server, simply run:
 
 ```bash
 service postgresql start
