@@ -22,7 +22,7 @@ Trusting you have Docker installed head to the terminal or command line and type
 
 Once downloaded you will need to run the container by using the below command:
 
-`docker run -d --name sql1 -p 1401:1433 kcornwall/sqlnorthwind`
+`docker run -d --name sql1 -p 1433:1433 kcornwall/sqlnorthwind`
 
 **Command Breakdown**
 
@@ -34,7 +34,7 @@ Just to be clear in what we are doing above let's break down the commands:
 
 `--name sql1` -> Naming your container is good practice and the --name flag allows you to do this. This is not mandatory however as Docker will name containers automatically.
 
-`-p 1401:1433` -> the `p` flag maps ports from your container to your localhost. In this instance we are mapping port `1401` from the container to port `1433` on our localhost. The standard SQL port is `1433` but in the container it has been set to `1401`.
+`-p 1433:1433` -> the `p` flag maps ports from your container to your localhost. In this instance we are mapping port `1433` from the container to port `1433` on our localhost. 
 
 `kcornwall/sqlnorthwind` -> This is the base image name to create the local container from.
 
@@ -50,7 +50,7 @@ To log into the image when prompted for login credentials input:
 
 Connection type -> `Microsoft SQL Server`
 
-Server -> `localhost, 1401`
+Server -> `localhost, 1433`
 
 Authentication type -> `SQL Login`
 
