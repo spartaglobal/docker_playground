@@ -75,4 +75,6 @@ You will be able to find documentation on how to use SQL Operations Studio [here
 
 A very useful guide for Learning SQL can be found [here](https://www.w3schools.com/sql/).
 
+### In case of any errors
 
+In case of any errors on Mac (f.e. error code 40 when connecting container to Azure Data Studio) please make sure, that the docker version is downloaded from [here](https://www.docker.com/products/docker-desktop) - log in/create user account and then download Docker Desktop to ensure full compatibility between Azure and docker container.
