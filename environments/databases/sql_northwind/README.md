@@ -18,11 +18,11 @@ The site for the base container from MS can be found [here](https://hub.docker.c
 
 Trusting you have Docker installed head to the terminal or command line and type:
 
-`docker pull kcornwall/sqlnorthwind`
+`docker pull spartagl/sqlnorthwind`
 
 Once downloaded you will need to run the container by using the below command:
 
-`docker run -d --name sql1 -p 1433:1433 kcornwall/sqlnorthwind`
+`docker run -d --name sql1 -p 1433:1433 spartagl/sqlnorthwind`
 
 **Command Breakdown**
 
@@ -36,11 +36,11 @@ Just to be clear in what we are doing above let's break down the commands:
 
 `-p 1433:1433` -> the `p` flag maps ports from your container to your localhost. In this instance we are mapping port `1433` from the container to port `1433` on our localhost. 
 
-`kcornwall/sqlnorthwind` -> This is the base image name to create the local container from.
+`spartagl/sqlnorthwind` -> This is the base image name to create the local container from.
 
-## SQL Operations Studio
+## Azure Data Studio
 
-You can download the cross platform tool SQL Operations Studio from [here](https://docs.microsoft.com/en-us/sql/sql-operations-studio/download?view=sql-server-2017).
+You can download the cross platform tool SQL Operations Studio from [here](https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio).
 
 Once opened you should see the below image:
 
@@ -56,7 +56,7 @@ Authentication type -> `SQL Login`
 
 Username -> `SA`
 
-Password -> `Passw0rd2018`
+Password -> `SA@SpartaGlobal`
 
 
 Once logged in you should see the below screen:
@@ -67,14 +67,9 @@ You are now ready to begin.
 
 # Supporting Resources
 
-
-## SQL operations studio guide
-You will be able to find documentation on how to use SQL Operations Studio [here](https://docs.microsoft.com/en-us/sql/sql-operations-studio/tutorial-sql-editor?view=sql-server-2017).
+## Azure Data Studio guide
+You will be able to find documentation on how to use Azure Data Studio [here](https://docs.microsoft.com/en-us/sql/sql-operations-studio/tutorial-sql-editor).
 
 ## W3C schools examples
 
-A very useful guide for Learning SQL can be found [here](https://www.w3schools.com/sql/).
-
-### In case of any errors
-
-In case of any errors on Mac (f.e. error code 40 when connecting container to Azure Data Studio) please make sure, that the docker version is downloaded from [here](https://www.docker.com/products/docker-desktop) - log in/create user account and then download Docker Desktop to ensure full compatibility between Azure and docker container.
+A very useful guide for Learning SQL that directly relates to the Northwind database can be found [here](https://www.w3schools.com/sql/).
