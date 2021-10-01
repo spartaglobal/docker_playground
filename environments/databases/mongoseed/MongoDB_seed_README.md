@@ -35,6 +35,7 @@ This will create your container for you.
 The DB credentials are as below:
 
 Username = root
+
 password = password
 
 Whether using code or an app such as mongoDB Compass (See below) you will need to connect to the DB using the below connection string:
