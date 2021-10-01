@@ -24,6 +24,12 @@ The below snippet will get the container up and running locally:
 
 `docker run -d --name <name_your_container> -p 27017:27017 spartagl/mongoseed`
 
+or simply clone this project, ensure you're in the folder `Docker_Playground/environments/databases/mongoseed` and type:
+
+`docker-compose up -d` 
+
+This will create your container for you.
+
 # Connecting to the DB
 
 The DB credentials are as below:
