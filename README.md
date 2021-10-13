@@ -11,7 +11,7 @@ If you're using docker for the first time take a look at the [docker_getting_sta
 
 Within the [Environments](https://github.com/spartaglobal/Docker_Playground/tree/master/environments) folder will be various sub-folders relating to particular resources for you to use such as seeded databases, API's and more.
 
-Each subsequent folder per master environment will have instructions on how to utilise the particular environment for training purposes and give direction to some useful resources to help practice. 
+Each subsequent folder per master environment will have `README.md` instructions on how to utilise the particular environment, simply click on the `README.md` for training details and direction to some useful resources to help practice. 
     
 # Getting Involved
 
