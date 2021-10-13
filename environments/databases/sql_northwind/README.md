@@ -1,3 +1,5 @@
+<img src="https://boolerang.co.uk/wp-content/uploads/job-manager-uploads/company_logo/2018/04/SG-Logo-Black.png" alt="Sparta Logo" width="200"/>
+
 # Microsoft SQL + Northwind DB Training / Test Environment
 
 There are many training resources out there that allow you to practice SQL directly in the browser although nothing quite replaces having an environment of your own to tinker.
