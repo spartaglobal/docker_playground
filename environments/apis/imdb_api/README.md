@@ -58,8 +58,6 @@ If you have cloned this repository you can simply run the `docker-compose.yml` b
 
 Swagger documentation on the end points can be found at the base url of `localhost:5000` although they will be documented in this README as well.
 
-**_NOTE_** - 
-
 ## API Response Structure
 all responses will be returned in a JSON array/list.
 
