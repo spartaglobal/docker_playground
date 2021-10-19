@@ -19,9 +19,11 @@
 The core aim of this API is to provide an environment for an exposed API and an exposed database to be able to practice with things like:
 
 * Consuming from an API for a front end website
-* Building data injected test frameworks to validate  the correct information is being exposed
+* Building data injected test frameworks to validate the correct information is being exposed
+* Both the API endpoints and the mongoDB instance will be exposed, so you will be able to query both
 
 This API has been built to connect and expose data from this training database [mongoDB Seeded DB](https://github.com/spartaglobal/docker_playground/tree/master/environments/databases/mongoseed).
+
 
 # How to use this environment
 
