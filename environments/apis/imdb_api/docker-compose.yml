@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  imdb_api:
+    build: .
+    ports:
+      - '5000:5000'
+    depends_on:
+      - mongoDB_seed
+    links:
+      - mongoDB_seed
+  mongoDB_seed:
+    image: spartagl/mongoseed:latest
+    ports:
+      - '27017:27017'
