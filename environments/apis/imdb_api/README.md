@@ -74,7 +74,7 @@ Each individual film repsonse will be structured as below:
   "genres": String Array/List,
   "gross": Integer,
   "director": String,
-  "actors": String Array/List,,
+  "actors": String Array/List,
   "language": String,
   "country": String
 },
