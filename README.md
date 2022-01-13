@@ -22,7 +22,7 @@ Within the [Environments](https://github.com/spartaglobal/Docker_Playground/tree
 Each subsequent folder per master environment will have `README.md` instructions on how to utilise the particular environment, simply click on the `README.md` for training details and direction to some useful resources to help practice. 
 
 * Databases
-    * [MSSQL_Northwind](https://github.com/spartaglobal/Docker_Playground/tree/master/Environments/Databases/MSSQL_Northwind) -> This is a prepackaged environment that contains an MS-SQL Dev server on ubuntu with the Northwind Data set installed for training purposes
+    * [MSSQL_Northwind](https://github.com/spartaglobal/docker_playground/tree/master/environments/databases/sql_northwind) -> This is a prepackaged environment that contains an MS-SQL Dev server on ubuntu with the Northwind Data set installed for training purposes
     * [MongoDB with seeded data](https://github.com/spartaglobal/Docker_Playground/tree/master/environments/databases/mongoseed)
 * Apis
     * [imdb_api](https://github.com/spartaglobal/docker_playground/tree/master/environments/apis/imdb_api) -> This API has been created to utilise the [MongoDB with seeded data](https://github.com/spartaglobal/Docker_Playground/tree/master/environments/databases/mongoseed) which exposes endpoints for the imdb data collection.
